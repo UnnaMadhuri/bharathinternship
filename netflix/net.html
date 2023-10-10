@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Homepage</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set a background image or color */
+        body {
+            background: #000;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Header */
+        header {
+            background: #000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 120px;
+        }
+
+        /* Navigation Menu */
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .main-content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* Featured Content */
+        .featured-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .featured-item {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .featured-item img {
+            width: 250px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Netflix-logo.png" alt="Netflix Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <h1>Unlimited movies, TV shows, and more.</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+    </div>
+    <div class="featured-content">
+        <div class="featured-item">
+            <img src="movie1.png" style="height: 70%;" alt="Movie 1">
+        </div>
+        <div class="featured-item">
+            <img src="movie2.png" alt="Movie 2">
+        </div>
+        <div class="featured-item">
+            <img src="movie4.jpeg" style="height: 67%;" alt="Movie 4">
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Netflix
+    </footer>
+</body>
+</html>
